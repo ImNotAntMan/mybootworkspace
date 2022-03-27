@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;test.jsp&apos; to &apos;demo&apos;&#x0D;&#x0A;- Original project: &apos;gs-accessing-data-mysql-complete&apos;&#x0D;&#x0A;- Destination element: &apos;demo&apos;&#x0D;&#x0A;- Original element: &apos;test.jsp&apos;" description="Copy file" element1="src/main/webapp/WEB-INF/views/board/test.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1648288624765" target="/gs-accessing-data-mysql-complete/src/main/webapp/WEB-INF/views/demo" units="0" version="1.0"/>
+</session>
