@@ -9,13 +9,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class DemoController {
 	
 	@GetMapping("/greeting")
-	public String greeting(@RequestParam(name="name", required=false, defaultValue="안녕하세요") String name, Model model) {
+	public String greeting(@RequestParam(name="name", required=false, 
+		defaultValue="안녕하세요") String name, Model model) {
 		model.addAttribute("name", name);
 		return "greeting";
 	}
 	
 	@GetMapping("/hello")
-	public String hello(Model model, @RequestParam(name="hello", required=false, defaultValue="잘되냐구?") String hello) {
+	public String hello(Model model, @RequestParam(name="hello", required=false,
+		defaultValue="잘되냐구?") String hello) {
 		model.addAttribute("hello", hello);
 		return "hello";
 	}
