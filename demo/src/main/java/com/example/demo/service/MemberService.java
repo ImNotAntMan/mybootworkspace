@@ -15,4 +15,6 @@ public interface MemberService {
 	public void delete(MemberVO member);
 
 	public void insert(MemberVO member);
+	
+	public MemberVO login(MemberVO member);
 }

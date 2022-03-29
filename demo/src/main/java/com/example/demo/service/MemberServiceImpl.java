@@ -38,4 +38,9 @@ public class MemberServiceImpl implements MemberService{
 	public void delete(MemberVO member) {
 		mapper.delete(member);
 	}
+	
+	@Override
+	public MemberVO login(MemberVO member) {
+		return mapper.login(member);
+	}
 }

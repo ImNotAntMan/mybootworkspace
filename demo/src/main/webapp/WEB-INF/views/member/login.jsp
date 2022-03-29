@@ -43,7 +43,31 @@
     <script src="/resources/js/demo/datatables-demo.js"></script>
 
 </head>
-
+<script src="./resources/js/jquery.js"></script>
+<script>
+$(document).ready(function () {
+	$("#login_btn").on('click', function() {
+		loginChk();
+	})
+});
+	
+function loginChk() {
+    $.ajax({
+        url: "/member/login",
+        type: "POST",
+        data: {
+        	id:$("#id").val(),
+        	pw:$("#pw").val()
+        },
+        success: function(data){
+            alert(data.m_id);
+        },
+        error: function(){
+            alert("err");
+        }
+  	});
+}
+</script>
 <body id="page-top">
 
     <!-- Page Wrapper -->
@@ -75,16 +99,16 @@
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                     <label>아이디</label>
-                                        <input type="text" class="form-control form-control-user" id="exampleFirstName"
+                                        <input type="text" class="form-control form-control-user" id="id"
                                             placeholder="아이디를 입력하세요" name="m_id">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                 <label>암호</label>
-                                   <input type="m_passwd" class="form-control form-control-user" id="exampleInputEmail"
+                                   <input type="m_passwd" class="form-control form-control-user" id="pw"
                                         placeholder="암호를 입력하세요" name="m_passwd">
                                 </div>
-                                <input type="submit" class="form-control" />
+                                <input type="submit" id="login_btn" class="form-control" />
                             </form>
                             </div>
                         </div>

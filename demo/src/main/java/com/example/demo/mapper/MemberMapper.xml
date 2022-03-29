@@ -16,6 +16,10 @@
 	<select id="read" resultType="com.example.demo.domain.MemberVO">
 		select * from tblmember where m_id = #{m_id}
 	</select>
+	<select id="login" resultType="com.example.demo.domain.MemberVO">
+		select * from tblmember where m_id = #{m_id} 
+			and m_passwd = hex(aes_encrypt(#{m_passwd}, sha2('202200309', 512)))
+	</select>
  	<update id="update">
 		update tblmember set m_name = #{m_name},
 		m_passwd =  hex(aes_encrypt(#{m_passwd}, sha2('202200309', 512))) where m_id = #{m_id}
