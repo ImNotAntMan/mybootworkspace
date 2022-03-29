@@ -41,6 +41,28 @@ class DemoApplicationTests {
 		System.out.println(member);
 	}
 	
+	//@Test
+	public void testLogin() {
+		MemberVO member = new MemberVO();
+		member.setM_id("tiger");
+		member.setM_passwd("1234");
+		member = mapper.login(member);
+		System.out.println("-------mapper-----------");
+		System.out.println(member);
+		
+	}
+	
+	//@Test
+	public void testServiceLogin() {
+		MemberVO member = new MemberVO();
+		member.setM_id("tiger");
+		member.setM_passwd("1234");
+		member = service.login(member);
+		System.out.println("---------Service---------");
+		System.out.println(member);
+		
+	}
+	
 	
 
 }

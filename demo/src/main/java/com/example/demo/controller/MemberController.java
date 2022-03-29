@@ -79,21 +79,18 @@ public class MemberController {
 	
 	@PostMapping("/login")
 	@ResponseBody
-	public MemberVO loginChk(Model model, HttpServletRequest request,
-			HttpServletResponse response) {
-		String id = request.getParameter("id");
-		String pw = request.getParameter("pw");
-		MemberVO member = new MemberVO();
-		member.setM_id(id);
-		member.setM_passwd(pw);
-		member = service.login(member);
+	public MemberVO loginChk(HttpServletRequest request, MemberVO member) {
+		String m_id = request.getParameter("m_id");
+		String m_passwd = request.getParameter("m_passwd");
+		MemberVO tmp = new MemberVO();
+		tmp.setM_id(m_id);
+		tmp.setM_passwd(m_passwd);
+		member = service.login(tmp);
 		System.out.println(member);
-		System.out.print("----------------------\n");
-		System.out.println(member);
-		if(member.getM_id().equals(id)) {
+		if(member.getM_id().equals(m_id)) {
 			return member;
 		} else {
-			return member;
+			return null;
 		}
 	}
 	
@@ -124,7 +121,7 @@ public class MemberController {
 		member.setM_id(m_id);
 		member = service.read(member);
 		System.out.println(member);
-		System.out.println("ajax 실행!" + cnt);
+		System.out.println("ajax 실행!" + cnt++);
 		return member; 
 	}
 	

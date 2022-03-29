@@ -56,8 +56,8 @@ function loginChk() {
         url: "/member/login",
         type: "POST",
         data: {
-        	id:$("#id").val(),
-        	pw:$("#pw").val()
+        	m_id:$("#id").val(),
+        	m_passwd:$("#pw").val()
         },
         success: function(data){
             alert(data.m_id);
