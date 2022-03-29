@@ -6,9 +6,16 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="javax"/>
 		<list key="findhistory">
+			<item value="javax.xml"/>
+			<item value="javax"/>
+			<item value="com.shopadmin.myapp"/>
+			<item value="com.shopadmin.mapper."/>
 		</list>
 		<list key="replacehistory">
+			<item value="com.example.demo.domain"/>
+			<item value="com.example.demo.mapper"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

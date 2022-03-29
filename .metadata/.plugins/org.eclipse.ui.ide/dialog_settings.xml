@@ -38,7 +38,7 @@
 	</list>
 	<section name="CleanDialogSettings">
 		<item key="BUILD_NOW" value="true"/>
-		<item key="BUILD_ALL" value="true"/>
+		<item key="BUILD_ALL" value="false"/>
 		<item key="TOGGLE_SELECTED" value="false"/>
 		<item key="DIALOG_WIDTH" value="581"/>
 		<item key="DIALOG_HEIGHT" value="529"/>
@@ -52,6 +52,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\mybootworkspace\spring-mvc-showcase"/>
 			<item value="C:\mybootworkspace\demo"/>
 		</list>
 	</section>
