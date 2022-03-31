@@ -12076,3 +12076,15 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://do
 
 !ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-29 18:46:19.622
 !MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/oomph/uss/drops/nightly/N20180202-232207, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-29 20:43:00.514
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UbhbwSea
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-29 20:43:00.514
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.UbhbwSea
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-29 20:43:00.515
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-29 20:43:00.515
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UbhbwSea => OK
