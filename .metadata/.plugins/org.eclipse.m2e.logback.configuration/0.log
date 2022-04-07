@@ -7769,3 +7769,20 @@ org.eclipse.core.runtime.CoreException: Launch configuration DemoApplicationTest
 2022-04-07 17:01:37,786 [Worker-21: Launching shop - ShopApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-04-07 17:01:37,787 [Worker-21: Launching shop - ShopApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-04-07 17:01:37,787 [Worker-21: Launching shop - ShopApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mybootworkspace\shop\src\test\resources
+2022-04-07 19:10:19,968 [Worker-49: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-07 19:10:19,969 [Worker-49: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-07 19:10:19,970 [Worker-49: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-04-07 19:10:19,991 [Worker-49: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-07 19:10:19,993 [Worker-49: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-07 19:10:19,993 [Worker-49: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-07 19:10:19,994 [Worker-49: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mybootworkspace\shop\src\test\resources
+2022-04-07 19:10:47,114 [Worker-54: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-07 19:10:47,114 [Worker-54: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-07 19:10:47,114 [Worker-54: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-07 19:10:47,115 [Worker-54: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-07 19:10:47,117 [Worker-54: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-07 19:10:47,117 [Worker-54: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-07 19:10:47,118 [Worker-54: Launching ItemRepositoryTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\mybootworkspace\shop\src\test\resources
+2022-04-07 19:17:39,251 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@631744f7{STOPPING}[10.0.6,sto=0]
+2022-04-07 19:17:39,256 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@49638620{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2022-04-07 19:17:39,267 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1298869e{/help,null,STOPPED}
