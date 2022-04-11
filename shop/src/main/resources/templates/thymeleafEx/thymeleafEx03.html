@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Serving Web Content</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>상품 데이터 출력 예제</h1>
+    <div th:each="itemList , status: ${itemList}">
+    	<div>
+    		순번 : <span th:text="${status.index}"></span>
+    	</div>
+		<div>
+    		상품명 : <span th:text="${itemList.itemNm}"></span>
+	    </div>
+    	<div>
+    		상품상세설명 : <span th:text="${itemList.itemDetail}"></span>
+	    </div>
+    	<div>
+    		상품등록일 : <span th:text="${itemList.regTime}"></span>
+    	</div> 
+    	<div>
+    		상품가격 : <span th:text="${itemList.price}"></span>
+    	</div>
+    </div>
+</body>
+</html>
